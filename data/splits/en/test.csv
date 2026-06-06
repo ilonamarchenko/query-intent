@@ -1,0 +1,779 @@
+idx,text,label,source
+so_10376206,"What is the preferred Bash shebang (""#!"")?",1,stackoverflow
+so_code_36901,"What does ** (double star/asterisk) and * (star/asterisk) do for parameters?
+
+```
+def foo(x, y, *args):
+    pass
+def bar(x, y, **kwargs):
+    pass
+```",1,stackoverflow
+so_code_1149703,"How can I convert a stack trace to a string?
+
+```
+Throwable.getStackTrace()
+```",0,stackoverflow
+so_2939914,How do I vertically align text in a div?,0,stackoverflow
+cs_se_83178,"How does the Y combinator exemplify ""Lambda calculus inconsistency""?",1,cs_se
+so_1495407,Maintain the aspect ratio of a div with CSS,0,stackoverflow
+so_1575141,How to make a div 100% height of the browser window,0,stackoverflow
+so_code_1349404,"Generate a string of random characters
+
+```
+[a-zA-Z0-9]
+```",0,stackoverflow
+ds_se_23159,"In softmax classifier, why use exp function to do normalization?",0,ds_se
+so_307291,"How does the Google ""Did you mean?"" Algorithm work?",1,stackoverflow
+swe_se_18454,Should I return from a function early or use an if statement?,1,swe_se
+syn_0066,How to make a responsive grid layout in CSS?,0,synthetic
+so_37628,What is reflection and why is it useful?,1,stackoverflow
+so_18172851,Deleting DataFrame row in Pandas based on column value,0,stackoverflow
+syn_0067,How do I add a class conditionally in React?,0,synthetic
+so_20646822,How to serve static files in Flask,0,stackoverflow
+so_code_455612,"Limiting floats to two decimal points
+
+```
+>>> a
+13.949999999999999
+>>> round(a, 2)
+13.949999999999999
+```",0,stackoverflow
+cs_se_59675,Can a public key be used to decrypt a message encrypted by the corresponding private key?,1,cs_se
+so_426258,"Setting ""checked"" for a checkbox with jQuery",0,stackoverflow
+syn_0283,What is the difference between strong and weak typing?,1,synthetic
+mbpp_75,Write a function to find tuples which have all elements divisible by k from the given list of tuples.,0,mbpp
+so_code_2276271,"How to mock void methods with Mockito
+
+```
+public class World {
+    List<Listener> listeners;
+    void addListener(Listener item) {
+        listeners.add(item);
+    }
+    void doAction(Action goal,Object obj) {
+        setState(""i received"");
+        goal.doAction(obj);
+```",0,stackoverflow
+so_code_40471,"What are the differences between a HashMap and a Hashtable in Java?
+
+```
+HashMap
+```",1,stackoverflow
+syn_0211,What is RAII in C++?,1,synthetic
+cs_se_119817,Do theorem provers demonstrate their own correctness?,0,cs_se
+cs_se_63048,What is the difference between radix trees and Patricia tries?,1,cs_se
+syn_en_602,What is Big O notation and why does it matter?,1,synthetic
+swe_se_91350,"What should every programmer know? Regardless of programming language(s) or operating system(s) used or the environment they develop for, what should every programmer know? Some background: I'm interested in becoming the best programmer I can. As part of this process I'm trying to understand what I don't know and would benefit me a lot if I did.",1,swe_se
+syn_0059,How to format a date as YYYY-MM-DD in JavaScript?,0,synthetic
+so_code_4871051,"How to get the current working directory in Java?
+
+```
+String currentPath = new java.io.File(""."").getCanonicalPath();
+ System.out.println(""Current dir:"" + currentPath);
+ String currentDir = System.getProperty(""user.dir"");
+ System.out.println(""Current dir using System:"" + currentDir);
+```",0,stackoverflow
+so_53975717,pytorch - connection between loss.backward() and optimizer.step(),0,stackoverflow
+cs_se_67684,"Does a byte contain 8 bits, or 9? I read in this assembly programming tutorial that 8 bits are used for data while 1 bit is for parity, which is then used for detecting parity error (caused by hardware fault or electrical disturbance). Is this true?",1,cs_se
+mbpp_256,Write a python function to count the number of prime numbers less than a given non-negative number.,0,mbpp
+so_code_951021,"What is the JavaScript version of sleep()?
+
+```
+function pausecomp(millis)
+{
+    var date = new Date();
+    var curDate = null;
+    do { curDate = new Date(); }
+    while(curDate-date < millis);
+}
+```",1,stackoverflow
+syn_0143,How do I add a background image to a div in CSS?,0,synthetic
+syn_0130,How to implement quicksort in Python?,0,synthetic
+cs_se_72102,"Understanding serialization? I am a software engineer and after a discussion with some colleagues, I realized I do not have a good grasp of the concept serialization.",1,cs_se
+mbpp_495,Write a function to remove lowercase substrings from a given string by using regex.,0,mbpp
+syn_0274,What is the difference between a framework and a library?,1,synthetic
+so_code_308276,"Can I call a constructor from another constructor (do constructor chaining) in C++?
+
+```
+class Test {
+    public Test() {
+        DoSomething();
+    }
+    public Test(int count) : this() {
+        DoSomethingWithCount(count);
+    }
+    public Test(int count, string name) : this(count) {
+```",0,stackoverflow
+ds_se_810,Should I go for a 'balanced' dataset or a 'representative' dataset?,1,ds_se
+syn_0065,How do I center a div both vertically and horizontally in CSS?,0,synthetic
+so_24251219,Pandas read_csv: low_memory and dtype options,0,stackoverflow
+mbpp_236,Write a python function to count the maximum number of equilateral triangles that can be formed within a given equilateral triangle.,0,mbpp
+syn_0165,How does Python manage memory?,1,synthetic
+cs_se_63961,Why are some programming languages Turing complete but lack some abilities of other languages?,1,cs_se
+so_42479902,What does `view()` do in PyTorch?,1,stackoverflow
+cs_se_7074,How does the computer determine whether a number is smaller or greater than another?,1,cs_se
+so_code_1005073,"Initialization of an ArrayList in one line
+
+```
+ArrayList<String> places = new ArrayList<String>();
+places.add(""Buenos Aires"");
+places.add(""Córdoba"");
+places.add(""La Plata"");
+```",0,stackoverflow
+syn_0120,How to create a REST API endpoint in Django?,0,synthetic
+wc_en_efb8142a,"Develop class of wideband spectrum generator for radio signals in C++. This class implements methods of generating frequency spectrum of signals with different modulation (implement AM). The generator takes the frequency range (start and end), sample rate, noise floor (dbm), signal-to-noise ratio(dbm), list of signal information: struct Signal {double power//dbm; double frequency; double bandwidth;}. First it generates a noize floor in frequency range. Then has to calculate signal, then calculate its complex spectrum and than get power spectrum. After all signal spectra have been generated, they have to be added to frequency range. The output is an vector of spectrum values in logarithmic scale.",0,wildchat_en
+ds_se_731,How to fight underfitting in a deep neural net,0,ds_se
+syn_en_618,How does a relational database differ from a NoSQL database?,1,synthetic
+so_4351521,How do I pass command line arguments to a Node.js program and receive them?,0,stackoverflow
+syn_0152,What are decorators in Python and how do they work?,1,synthetic
+syn_0191,How does the spread operator work in JavaScript?,1,synthetic
+so_code_295579,"Fastest way to determine if an integer's square root is an integer
+
+```
+public final static boolean isPerfectSquare(long n)
+{
+  if (n < 0)
+    return false;
+  long tst = (long)(Math.sqrt(n) + 0.5);
+  return tst*tst == n;
+}
+```",0,stackoverflow
+syn_0261,What is a race condition?,1,synthetic
+cs_se_91773,Why is the Turing Machine a popular model of computation?,1,cs_se
+so_16151018,How to fix npm throwing error without sudo,0,stackoverflow
+so_60174,How can I prevent SQL injection in PHP?,0,stackoverflow
+swe_se_278949,Why do many exception messages not contain useful details?,1,swe_se
+so_2530,How do you disable browser autocomplete on web form field / input tags?,0,stackoverflow
+cs_se_6552,When can a greedy algorithm solve the coin change problem?,1,cs_se
+so_2346806,What is a segmentation fault? What is a segmentation fault? Is it different in C and C++? How are segmentation faults and dangling pointers related?,1,stackoverflow
+syn_0011,How to transpose a matrix in Python?,0,synthetic
+mbpp_465,Write a function to drop empty items from a given dictionary.,0,mbpp
+so_31048953,What are these three dots in React doing?,1,stackoverflow
+so_code_53513,"How do I check if a list is empty?
+
+```
+a = []
+```",0,stackoverflow
+swe_se_158640,"Why can't the IT industry deliver large, faultless projects quickly as in other industries?",1,swe_se
+syn_0226,What is Big O notation and why is it important?,1,synthetic
+so_code_2793150,"How to use java.net.URLConnection to fire and handle HTTP requests
+
+```
+java.net.URLConnection
+```",0,stackoverflow
+so_20224526,How to extract the decision rules from scikit-learn decision-tree?,0,stackoverflow
+syn_0239,What is topological sorting and when is it used?,1,synthetic
+so_28930465,What is the difference between flatten and ravel functions in numpy?,1,stackoverflow
+so_code_25078285,"Replacing a 32-bit loop counter with 64-bit introduces crazy performance deviations with _mm_popcnt_u64 on Intel CPUs
+
+```
+#include <iostream>
+#include <chrono>
+#include <x86intrin.h>
+int main(int argc, char* argv[]) {
+    using namespace std;
+    if (argc != 2) {
+       cerr << ""usage: array_size in MB"" << endl;
+       return -1;
+```",0,stackoverflow
+so_code_101439,"The most efficient way to implement an integer based power function pow(int, int)
+
+```
+// 2^3
+pow(2,3) == 8
+// 5^5
+pow(5,5) == 3125
+```",0,stackoverflow
+so_16476924,How can I iterate over rows in a Pandas DataFrame?,0,stackoverflow
+cs_se_1771,Why is a regular language called 'regular'?,1,cs_se
+so_code_1986896,"What is the difference between call and apply?
+
+```
+const func = function() {
+    alert(""Hello world!"");
+};
+```",1,stackoverflow
+so_code_2720014,"How to upgrade all Python packages with pip
+
+```
+pip
+```",0,stackoverflow
+so_23708898,'pip' is not recognized as an internal or external command,0,stackoverflow
+syn_en_645,What is the difference between a monolith and microservices architecture?,1,synthetic
+so_17309889,How to debug a Flask app? How are you meant to debug errors in Flask? Print to the console? Flash messages to the page? Or is there a more powerful option available to figure out what's happening when something goes wrong?,0,stackoverflow
+syn_0235,When should I use a heap vs a sorted array?,1,synthetic
+swe_se_122477,How can I deal with the cargo-cult programming attitude?,0,swe_se
+syn_0190,What is event delegation in JavaScript?,1,synthetic
+so_code_610883,"How can I check if an object has an attribute?
+
+```
+>>> a = SomeClass()
+>>> a.property
+Traceback (most recent call last):
+  File ""<stdin>"", line 1, in <module>
+AttributeError: SomeClass instance has no attribute 'property'
+```",0,stackoverflow
+so_431628,How to combine multiple QuerySets in Django?,0,stackoverflow
+so_13703720,"Converting between datetime, Timestamp and datetime64",0,stackoverflow
+cs_se_71979,"Why are some programming languages ""faster"" or ""slower"" than others?",1,cs_se
+so_1911015,How do I debug Node.js applications?,0,stackoverflow
+so_35352638,How to get parameter value from query string?,0,stackoverflow
+swe_se_6268,When is a BIG Rewrite the answer? Just read the question about the Big Rewrites and I remembered a question that I've been wanting answered myself.,1,swe_se
+so_59838,How do I check if a directory exists or not in a Bash shell script?,0,stackoverflow
+syn_0015,How to read a file line by line in Python?,0,synthetic
+so_1026069,How do I make the first letter of a string uppercase in JavaScript?,0,stackoverflow
+swe_se_78547,How do you tell if advice from a senior developer is bad?,0,swe_se
+so_5189560,How do I squash my last N commits together?,0,stackoverflow
+cs_se_54013,Is there anything that MUST be done on a multi-core CPU?,1,cs_se
+syn_0282,What is type inference?,1,synthetic
+so_code_46898,"How do I efficiently iterate over each entry in a Java Map?
+
+```
+Map
+```",0,stackoverflow
+syn_0063,How do I redirect to another page in React Router?,0,synthetic
+cs_se_329,Do you get DFS if you change the queue to a stack in a BFS implementation?,0,cs_se
+so_code_30727515,"Why is executing Java code in comments with certain Unicode characters allowed?
+
+```
+public static void main(String... args) {
+   // The comment below is not a typo.
+   // \u000d System.out.println(""Hello World!"");
+}
+```",1,stackoverflow
+so_384759,How do I convert a PIL Image into a NumPy array?,0,stackoverflow
+wc_en_8ddc4596,"for this html page make the generate page button generate the code for an html page that displays the bookmarklets as links with the text inputted in as the bookmarklets name and displays each bookmarklets description: Bookmarklets .bookmarklet-section { margin-bottom: 1em; padding: 1em; border: 1px solid black; } .bookmarklet-section input[type=""text""] { display: block; margin-bottom: 0.5em; } .bookmarklet-section button { margin-top: 0.5em; } Bookmarklets Remove Add bookmarklet Generate page function addBookmarkletSection() { const bookmarkletSections = document.getElementById(""bookmarklet-sections""); const newBookmarkletSection = document.createElement(""div""); newBookmarkletSection.classList.add(""bookmarklet-section""); newBookmarkletSection.innerHTML = ` Remove `; bookmarkletSections.appendChild(newBookmarkletSection); } function removeBookmarkletSection(button) { const bookmarkletSection = button.parentNode; bookmarkletSection.parentNode.removeChild(bookmarkletSection); } function generatePage() { const bookmarkletSections = document.querySelectorAll("".bookmarklet-section""); let html = "" ""; for (let i = 0; i ${name} : ${description} `; } html += "" ""; const link = document.createElement(""a""); link.href = ""data:text/html,"" + encodeURIComponent(html); link.download = ""bookmarklets.html""; link.click(); }",0,wildchat_en
+cs_se_35759,What would be the real-world implications of a constructive $P=NP$ proof?,1,cs_se
+syn_en_677,How does version control with Git differ from SVN?,1,synthetic
+so_2391679,Why do we need virtual functions in C++?,1,stackoverflow
+so_495021,Why can templates only be implemented in the header file?,1,stackoverflow
+swe_se_163185,"Torvalds' quote about good programmer? Accidentally I've stumbled upon the following quote by Linus Torvalds: ""Bad programmers worry about the code.",0,swe_se
+so_code_571394,"How to find out if an item is present in a std::vector?
+
+```
+if ( item_present )
+   do_this();
+else
+   do_that();
+```",0,stackoverflow
+syn_0029,How to use list comprehensions in Python?,0,synthetic
+cs_se_34067,Is Morse code without spaces uniquely decipherable?,1,cs_se
+syn_0206,What is a pointer in C and how does it work?,1,synthetic
+so_code_13375357,"Proper use cases for Android UserManager.isUserAGoat()?
+
+```
+public boolean isUserAGoat()
+```",0,stackoverflow
+so_8881291,Why is char[] preferred over String for passwords?,1,stackoverflow
+ds_se_16807,"Why mini batch size is better than one single ""batch"" with all training data?",1,ds_se
+so_769683,How to show tables in PostgreSQL?,0,stackoverflow
+syn_en_693,How does async/await differ from Promises in JavaScript?,1,synthetic
+so_code_17071871,"How do I select rows from a DataFrame based on column values?
+
+```
+SELECT *
+FROM table
+WHERE column_name = some_value
+```",0,stackoverflow
+mbpp_797,Write a python function to find the sum of all odd natural numbers within the range l and r.,0,mbpp
+cs_se_55489,Theoretical machines which are more powerful than Turing machines,0,cs_se
+syn_en_689,How does the browser render a web page?,1,synthetic
+wc_en_a1691566,"What would the following code output?
+
+def insertion_sort(arr):
+ for i in range(1, len(arr)):
+ key = arr[i]
+ j = i - 1
+ while j >= 0 and key < arr[j]:
+ arr[j + 1] = arr[j]
+ j -= 1
+ arr[j + 1] = key
+ return arr
+
+# Example array
+arr = [3, 1, 4, 1, 5, 9, 2, 6, 5, 3, 5]
+
+# Call insertion_sort() function
+print(insertion_sort(arr))",1,wildchat_en
+so_106508,What is a smart pointer and when should I use one?,1,stackoverflow
+so_6827752,"What's the difference between @Component, @Repository & @Service annotations in Spring?",1,stackoverflow
+so_code_38987,"How do I merge two dictionaries in a single expression in Python?
+
+```
+x = {'a': 1, 'b': 2}
+y = {'b': 3, 'c': 4}
+z = merge(x, y)
+>>> z
+{'a': 1, 'b': 3, 'c': 4}
+```",0,stackoverflow
+mbpp_743,Write a function to rotate a given list by specified number of items to the right direction.,0,mbpp
+so_27991366,What is the difference between state and props in React?,1,stackoverflow
+so_221294,How do I get a timestamp in JavaScript?,0,stackoverflow
+cs_se_11667,What is the difference between a 'page' of memory and a 'frame' of memory?,1,cs_se
+cs_se_23010,Can PRNGs be used to magically compress stuff?,1,cs_se
+syn_0109,How do I set up a Git repository from scratch?,0,synthetic
+syn_0248,What is the vanishing gradient problem?,1,synthetic
+ds_se_937,Does scikit-learn have a forward selection/stepwise regression algorithm?,1,ds_se
+cs_se_367,How can it be decidable whether $\pi$ has some sequence of digits?,1,cs_se
+so_47190861,How can the default Node.js version be set using NVM?,0,stackoverflow
+wc_en_5ac3d119,"I'm creating a fivem volleyball script this is my client code
+
+local function spawn_the_ball()
+ local player = PlayerPedId()
+ local position = GetEntityCoords(PlayerPedId())
+ local modelHash = loadModel(objectModel)
+ createdObject = CreateObject(modelHash, position.x, position.y, position.z + 1, true, false, true)
+ SetEntityDynamic(createdObject, true)
+ print(""waiting"")
+ Citizen.Wait(1000)
+ local playerRotation = GetEntityRotation(PlayerPedId(), 2)
+ local forwardVector = GetEntityForwardVector(PlayerPedId())
+ local forceVector = vector3(
+ forwardVector.x * forwardForceIntensity,
+ forwardVector.y * forwardForceIntensity,
+ upwardForceIntensity
+ )
+ ApplyForceToEntity(createdObject, 1, forceVector.x, forceVector.y, forceVector.z, 0.0, 0.0, 0.0, 0, false, true, true, false, true)
+ -- Add this line after setting object_netID
+ TriggerServerEvent(“VB:setObjectNetworkID”, object_netID)
+end
+
+how can I get the object_netID",0,wildchat_en
+syn_en_668,What is the difference between NP and NP-complete?,1,synthetic
+syn_0171,How does the with statement work in Python?,1,synthetic
+cs_se_109,Are there inherently ambiguous and deterministic context-free languages?,1,cs_se
+syn_0208,What is undefined behavior in C?,1,synthetic
+ds_se_12554,Does XGBoost handle multicollinearity by itself?,1,ds_se
+so_code_30081275,"Why is ""1000000000000000 in range(1000000000000001)"" so fast in Python 3?
+
+```
+1_000_000_000_000_000 in range(1_000_000_000_000_001)
+```",1,stackoverflow
+so_11919391,"PostgreSQL error: Fatal: role ""username"" does not exist",0,stackoverflow
+syn_en_721,How does dropout prevent overfitting in neural networks?,1,synthetic
+ds_se_41921,"Sparse_categorical_crossentropy vs categorical_crossentropy (keras, accuracy)? Which is better for accuracy or are they the same? Of course, if you use you use one hot encoding, and if you use you encode as normal integers. Additionally, when is one better than the other?",1,ds_se
+ds_se_20296,"Cross-entropy loss explanation? Suppose I build a neural network for classification. The last layer is a dense layer with Softmax activation. I have five different classes to classify. Suppose for a single training example, the is while the predictions be . How would I calculate the cross entropy loss for this example?",1,ds_se
+syn_0194,What is a JavaScript module and why is it useful?,1,synthetic
+so_code_4184468,"Sleep for milliseconds
+
+```
+sleep(x)
+```",0,stackoverflow
+so_code_21530577,"fatal error: Python.h: No such file or directory
+
+```
+gcc -Wall utilsmodule.c -o Utilc
+```",0,stackoverflow
+so_code_201718,"Concatenating two std::vectors
+
+```
+std::vector
+```",0,stackoverflow
+syn_0287,What is the difference between an interface and a type alias in TypeScript?,1,synthetic
+ds_se_41,"Is the R language suitable for Big Data? R has many libraries which are aimed at Data Analysis (e.g. JAGS, BUGS, ARULES etc..), and is mentioned in popular textbooks such as: J.Krusche, Doing Bayesian Data Analysis; B.Lantz, ""Machine Learning with R"". I've seen a guideline of 5TB for a dataset to be considered as Big Data.",1,ds_se
+swe_se_218011,"How accurate is ""Business logic should be in a service, not in a model""?",0,swe_se
+cs_se_269,"Why would anyone want CISC? In our computer systems lecture we were introduced to the MIPS processor. It was (re)developed over the course of the term and has in fact been quite easy to understand. It uses a RISC design, that is its elementary commands are regularly encoded and there are only few of them in order to keep the wires simple.",1,cs_se
+cs_se_9813,Are there subexponential-time algorithms for NP-complete problems?,1,cs_se
+cs_se_58170,Can Quantum Computing solve Problems not even a Turing Machine can solve?,1,cs_se
+wc_en_aefb543b,"this is my html 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Scoreboard 
+ 
+ 
+ 
+ 
+ Points: 
+ 0 
+ 
+ 
+ 
+ 
+ 
+
+
+css
+body {
+ margin: 0;
+ background-color: #111;
+}
+
+.scoreboard {
+ position: fixed;
+ top: 0;
+ right: 0;
+ background-color: rgba(0, 0, 0, 0.5);
+ padding: 5px 15px;
+ margin: 10px;
+ border-radius: 5px;
+ display: inline-flex;
+ align-items: center;
+}
+
+.label {
+ color: #ffffff;
+ font-family: Arial, sans-serif;
+ font-size: 14px;
+}
+
+.score {
+ color: #247c24;
+ font-family: Arial, sans-serif;
+ font-size: 14px;
+ font-weight: bold;
+ margin-left: 5px;
+}
+
+I'm trying to center the scoreboard class but currently it only sits on the right",0,wildchat_en
+so_450903,How can I make a div not larger than its contents?,0,stackoverflow
+wc_en_c96016af,"Develop a structure of class of test spectrum generator for radio signals in C++. This class implements methods of generating frequency spectrum of signals with different modulation (implement AM and FM). The generator takes the frequency range (start and end), sample rate, signal-to-noise ratio, list of signal information: struct Signal {double power//dbm; double frequency; double bandwidth;}. First it has to calculate signal, then calculate its complex spectrum and than get power spectrum. After all signal spectra have been generated, a white Gaussian noise of a given signal-to-noise ratio is added to the entire frequency range. The output is an vector of spectrum values in logarithmic scale.",0,wildchat_en
+syn_0050,How do I find the intersection of two arrays in JavaScript?,0,synthetic
+so_3331353,Transitions on the CSS display property,0,stackoverflow
+so_7745609,SQL select only rows with max value on a column,0,stackoverflow
+mbpp_571,Write a function to find maximum possible sum of disjoint pairs for the given array of integers and a number k.,0,mbpp
+syn_0289,What is the difference between static and dynamic typing?,1,synthetic
+wc_en_882518d6,"with python: loop for everyline of a .txt that cointains the 'cityname,countyname' , do this for every 'presentname' that i listed for you
+
+import prettymaps
+plot = prettymaps.plot(
+ 'cityname, countryname',
+ preset = 'presentname'
+)
+
+'presentname':
+barcelona
+barcelona-plotter
+cb-bf-f
+default
+heerhugowaard
+macao
+minimal
+tijuca",0,wildchat_en
+mbpp_858,Write a function to count number of lists in a given list of lists and square the count.,0,mbpp
+swe_se_190482,Why use a database instead of just saving your data to disk?,1,swe_se
+so_1732348,RegEx match open tags except XHTML self-contained tags,0,stackoverflow
+so_code_1750435,"Comparing Java enum members: == or equals()?
+
+```
+public useEnums(SomeEnum a)
+{
+    if(a.equals(SomeEnum.SOME_ENUM_VALUE))
+    {
+        ...
+    }
+    ...
+}
+```",0,stackoverflow
+syn_0038,How do I save and load a trained scikit-learn model?,0,synthetic
+wc_en_dd42a864,"import json
+import requests
+
+# Server address
+server = ""127.0.0.1""
+
+# Generation parameters
+# Reference: https://huggingface.co/docs/transformers/main_classes/text_generation#transformers.GenerationConfig
+params = {
+ 'max_new_tokens': 200,
+ 'do_sample': True,
+ 'temperature': 0.5,
+ 'top_p': 0.9,
+ 'typical_p': 1,
+ 'repetition_penalty': 1.05,
+ 'encoder_repetition_penalty': 1.0,
+ 'top_k': 0,
+ 'min_length': 0,
+ 'no_repeat_ngram_size': 0,
+ 'num_beams': 1,
+ 'penalty_alpha': 0,
+ 'length_penalty': 1,
+ 'early_stopping': False,
+ 'seed': -1,
+}
+
+# Input prompt
+prompt = ""What I would like to say is the following: ""
+
+payload = json.dumps([prompt, params])
+
+response = requests.post(f""http://{server}:7861/run/textgen"", json={
+ ""data"": [
+ payload
+ ]
+}).json()
+reply = response[""data""][0]
+print(reply)
+
+I'm getting this error:
+(llm) I:\AI-TOOLS\LLM\Auto-Ooba>python request_test.py
+Traceback (most recent call last):
+ File ""I:\AI-TOOLS\LLM\Auto-Ooba\request_test.py"", line 38, in 
+ reply = response[""data""][0]
+ ~~~~~~~~^^^^^^^^
+KeyError: 'data'",0,wildchat_en
+swe_se_155488,I've inherited 200K lines of spaghetti code -- what now?,0,swe_se
+so_237104,How do I check if an array includes a value in JavaScript?,0,stackoverflow
+syn_0155,What is the difference between deep copy and shallow copy in Python?,1,synthetic
+so_code_12264970,"Why is my program slow when looping over exactly 8192 elements?
+
+```
+for(i=1;i<SIZE-1;i++) 
+    for(j=1;j<SIZE-1;j++) {
+        res[j][i]=0;
+        for(k=-1;k<2;k++) 
+            for(l=-1;l<2;l++) 
+                res[j][i] += img[j+l][i+k];
+        res[j][i] /= 9;
+}
+```",1,stackoverflow
+so_code_1026069,"How do I make the first letter of a string uppercase in JavaScript?
+
+```
+""this is a test""
+```",0,stackoverflow
+cs_se_67897,"Iteration can replace Recursion? I've been seeing all over stack Overflow, e.g here , here , here , here , here and some others I don't care to mention, that ""any program that uses recursion can be converted to a program using only iteration"". There was even a highly upvoted thread with a highly upvoted answer that said yes it's possible. Now I'm not saying they're wrong.",0,cs_se
+ds_se_694,Best python library for neural networks? I'm using Neural Networks to solve different Machine learning problems. I'm using Python and pybrain but this library is almost discontinued. Are there other good alternatives in Python?,1,ds_se
+swe_se_140925,Why was Tanenbaum wrong in the Tanenbaum-Torvalds debates?,1,swe_se
+so_code_1128723,"How do I determine whether an array contains a particular value in Java?
+
+```
+public static final String[] VALUES = new String[] {""AB"",""BC"",""CD"",""AE""};
+```",0,stackoverflow
+syn_0131,How do I implement a hash table from scratch in Python?,0,synthetic
+so_14032066,Can Flask have optional URL parameters?,1,stackoverflow
+so_code_5767325,"How can I remove a specific item from an array in JavaScript?
+
+```
+array.remove(value);
+```",0,stackoverflow
+so_9736085,Run a PostgreSQL .sql file using command line arguments,0,stackoverflow
+syn_0223,What is the difference between SQL and NoSQL databases?,1,synthetic
+syn_en_712,How does the Java JVM work at a high level?,1,synthetic
+syn_0151,What does the yield keyword do in Python?,1,synthetic
+cs_se_9380,Why is push_back in C++ vectors constant amortized?,1,cs_se
+so_code_612328,"Difference between 'struct' and 'typedef struct' in C++?
+
+```
+struct Foo { ... };
+```",1,stackoverflow
+swe_se_45776,Why do business analysts and project managers get higher salaries than programmers?,1,swe_se
+cs_se_127182,Is UTF-8 the final character encoding for all future time?,1,cs_se
+syn_0012,How do I find the index of an element in a list in Python?,0,synthetic
+syn_0262,What is deadlock and how can it be avoided?,1,synthetic
+so_code_950087,"How do I include a JavaScript file in another JavaScript file?
+
+```
+@import
+```",0,stackoverflow
+so_1776915,How can I center an absolutely positioned element in a div?,0,stackoverflow
+so_code_13513932,"Algorithm to detect overlapping periods
+
+```
+tStartA < tStartB && tStartB < tEndA //For case 1
+OR
+tStartA < tEndB && tEndB <= tEndA //For case 2
+OR
+tStartB < tStartA  && tEndB > tEndA //For case 3
+```",0,stackoverflow
+syn_0251,What is the attention mechanism in transformers?,1,synthetic
+syn_0148,How do I set up a virtual environment in Python?,0,synthetic
+so_code_8312459,"Iterate through object properties
+
+```
+var obj = {
+    name: ""Simon"",
+    age: ""20"",
+    clothing: {
+        style: ""simple"",
+        hipster: false
+    }
+}
+```",0,stackoverflow
+so_2334712,"UPDATE from a SELECT? In SQL Server , it is possible to insert rows into a table with an statement: Is it also possible to update a table with ? I have a temporary table containing the values and would like to update another table using those values. Perhaps something like this:",0,stackoverflow
+so_code_306583,"How to get the children of the $(this) selector?
+
+```
+<div id=""..."">
+  <img src=""..."">
+</div>
+```",0,stackoverflow
+mbpp_106,Write a function to add the given list to the given tuples.,0,mbpp
+cs_se_3078,Algorithm that finds the number of simple paths from $s$ to $t$ in $G$,0,cs_se
+cs_se_265,How to prove that a language is not context-free?,0,cs_se
+syn_0160,What are Python metaclasses?,1,synthetic
+mbpp_882,Write a function to caluclate perimeter of a parallelogram.,0,mbpp
+ds_se_15989,Micro Average vs Macro average Performance in a Multiclass classification setting,1,ds_se
+so_code_419163,"What does if __name__ == ""__main__"": do?
+
+```
+if __name__ == ""__main__"":
+    print(""Hello, World!"")
+```",1,stackoverflow
+so_code_189559,"How do I join two lists in Java?
+
+```
+List<String> newList = new ArrayList<String>();
+newList.addAll(listOne);
+newList.addAll(listTwo);
+```",0,stackoverflow
+so_8318911,Why does HTML think “chucknorris” is a color?,1,stackoverflow
+so_code_596351,"How can I know which radio button is selected via jQuery?
+
+```
+$(""form :radio"")
+```",0,stackoverflow
+cs_se_23068,How do O and Ω relate to worst and best case?,1,cs_se
+so_952914,How do I make a flat list out of a list of lists?,0,stackoverflow
+so_3397113,How to remove focus border (outline) around text/input boxes? (Chrome),0,stackoverflow
+so_100003,What are metaclasses in Python? What are metaclasses ? What are they used for?,1,stackoverflow
+so_code_2663115,"How to detect a loop in a linked list?
+
+```
+class Node {
+    Node next;
+    // some user data
+}
+```",0,stackoverflow
+mbpp_427,Write a function to convert a date of yyyy-mm-dd format to dd-mm-yyyy format by using regex.,0,mbpp
+so_code_2010892,"How to store objects in HTML5 localStorage/sessionStorage
+
+```
+var testObject = { 'one': 1, 'two': 2, 'three': 3 };
+console.log('typeof testObject: ' + typeof testObject);
+console.log('testObject properties:');
+for (var prop in testObject) {
+    console.log('  ' + prop + ': ' + testObject[prop]);
+}
+// Put the object into storage
+localStorage.setItem('testObject', testObject);
+```",0,stackoverflow
+so_code_37576685,"Using async/await with a forEach loop
+
+```
+import fs from 'fs-promise'
+async function printFiles () {
+  const files = await getFilePaths() // Assume this works fine
+  files.forEach(async (file) => {
+    const contents = await fs.readFile(file, 'utf8')
+    console.log(contents)
+  })
+}
+```",0,stackoverflow
+so_16670931,"Hide scroll bar, but while still being able to scroll",0,stackoverflow
+cs_se_45486,How can a language whose compiler is written in C ever be faster than C?,1,cs_se
+so_1538420,Difference between malloc and calloc?,1,stackoverflow
+swe_se_93983,Why don't all companies buy developers the best hardware?,1,swe_se
+syn_0021,How to recursively list all files in a directory in Python?,0,synthetic
+syn_0102,How to stash changes in Git?,0,synthetic
+so_20638006,Convert list of dictionaries to a pandas DataFrame,0,stackoverflow
+swe_se_254978,What's wrong with comments that explain complex code?,1,swe_se
+so_code_3106452,"How do servlets work? Instantiation, sessions, shared variables and multithreading
+
+```
+n
+```",1,stackoverflow
+swe_se_225400,Pros and Cons of Facebook's React vs. Web Components (Polymer),1,swe_se
+mbpp_432,Write a function to find the median of a trapezium.,0,mbpp
+ds_se_26475,Why is ReLU used as an activation function?,1,ds_se
+cs_se_11263,Longest path in an undirected tree with only one traversal,0,cs_se
+swe_se_131006,Should I intentionally break the build when a bug is found in production?,1,swe_se
+so_5311334,What is the purpose of Node.js module.exports and how do you use it?,1,stackoverflow
+so_876522,Creating a copy of a database in PostgreSQL,0,stackoverflow
+syn_en_642,What is the difference between REST and GraphQL?,1,synthetic
+cs_se_22472,Why is non-determinism a useful concept?,1,cs_se
+so_6841333,Why is subtracting these two epoch-milli Times (in year 1927) giving a strange result?,1,stackoverflow
+cs_se_9063,NP-Hard problems that are not in NP but decidable,0,cs_se
+so_31079081,How can I programmatically navigate using React Router?,0,stackoverflow
+so_3601515,How to check if a variable is set in Bash,0,stackoverflow
+syn_0193,"What is the difference between call, apply, and bind in JavaScript?",1,synthetic
+so_code_152555,"*.h or *.hpp for your C++ headers / class definitions
+
+```
+*.h
+```",0,stackoverflow
+wc_en_991b1ca1,"Привет, в чем ошибка
+converted_vae_checkpoint = convert_ldm_vae_checkpoint(state_dict, vae_config)
+ File ""D:\Kohya_ss-GUI-LoRA-Portable-main\library\model_util.py"", line 381, in convert_ldm_vae_checkpoint
+ new_checkpoint[""encoder.conv_in.weight""] = vae_state_dict[""encoder.conv_in.weight""]
+KeyError: 'encoder.conv_in.weight'
+Traceback (most recent call last):
+ File ""D:\Kohya_ss-GUI-LoRA-Portable-main\python\lib\runpy.py"", line 196, in _run_module_as_main
+ return _run_code(code, main_globals, None,
+ File ""D:\Kohya_ss-GUI-LoRA-Portable-main\python\lib\runpy.py"", line 86, in _run_code
+ exec(code, run_globals)
+ File ""D:\Kohya_ss-GUI-LoRA-Portable-main\venv\Scripts\accelerate.exe\__main__.py"", line 7, in 
+ File ""D:\Kohya_ss-GUI-LoRA-Portable-main\venv\lib\site-packages\accelerate\commands\accelerate_cli.py"", line 45, in main
+ args.func(args)
+ File ""D:\Kohya_ss-GUI-LoRA-Portable-main\venv\lib\site-packages\accelerate\commands\launch.py"", line 1104, in launch_command
+ simple_launcher(args)
+ File ""D:\Kohya_ss-GUI-LoRA-Portable-main\venv\lib\site-packages\accelerate\commands\launch.py"", line 567, in simple_launcher
+ raise subprocess.CalledProcessError(returncode=process.returncode, cmd=cmd)
+subprocess.CalledProcessError: Command '['D:\\Kohya_ss-GUI-LoRA-Portable-main\\venv\\Scripts\\python.exe', 'train_network.py', '--pretrained_model_name_or_path=D:/LORA-train/revAnimated_v121.safetensors', '--train_data_dir=D:\\LORA-train', '--resolution=512,512', '--output_dir=D:\\LORA-train', '--logging_dir=', '--network_alpha=128', '--save_model_as=safetensors', '--network_module=networks.lora', '--text_encoder_lr=5e-5', '--unet_lr=0.0001', '--network_dim=128', '--output_name=luna-helluva-boss', '--lr_scheduler_num_cycles=1', '--learning_rate=0.0001', '--lr_scheduler=constant', '--train_batch_size=2', '--max_train_steps=3800', '--save_every_n_epochs=1', '--mixed_precision=bf16', '--save_precision=bf16', '--seed=1', '--cache_latents', '--optimizer_type=AdamW8bit', '--max_data_loader_n_workers=1', '--clip_skip=2', '--bucket_reso_steps=64', '--xformers', '--bucket_no_upscale']' returned non-zero exit status 1.",0,wildchat_en
+syn_0141,How do I change the color of a placeholder in CSS?,0,synthetic
+cs_se_61022,"Is zero allowed as an edge's weight, in a weighted graph?",1,cs_se
+syn_0016,How do I write a list to a file in Python?,0,synthetic
+so_1144783,How do I replace all occurrences of a string?,0,stackoverflow
+syn_0013,How to convert a string to a list of characters in Python?,0,synthetic
+so_1987694,"How do I print the full NumPy array, without truncation?",0,stackoverflow
+so_5871730,How to upload a file in Django?,0,stackoverflow
+so_code_136097,"What is the difference between @staticmethod and @classmethod in Python?
+
+```
+@staticmethod
+```",1,stackoverflow
+syn_0164,Why is Python considered a dynamically typed language?,1,synthetic
+wc_en_5c9eaba9,"So this is a mineflayer function, the bot will keep 64 cooked pork chop and all of the leather, and else it will throw alway and the extra cooked pork chop will be also thrown away, but this code, the bot throw all of the cooked pork chop, can you fix: async function throwItems() {
+ const itemsToThrow = bot.inventory.items().filter(item => {
+ const itemId = item.type;
+ if (itemId !== porkchopId && !item.name.toLowerCase().includes('leather')) {
+ return true;
+ }
+ return false;
+ });
+ const goal = new GoalNear(5114880, 134, 5096970, 2);
+ await bot.pathfinder.goto(goal);
+ for (const item of itemsToThrow) {
+ await bot.tossStack(item);
+ }
+ handlePorkChops();
+ }
+ async function handlePorkChops() {
+ const porkchopId = bot.registry.itemsByName.cooked_porkchop.id;
+ const porkChops = bot.inventory.items().filter(item => item.type === porkchopId);
+ 
+ const numToKeep = 64;
+ while (porkChops.length > numToKeep) { 
+ await bot.tossStack(porkChops.pop()); 
+ } 
+ dig1()
+ }",0,wildchat_en
+syn_0104,How to cherry-pick a commit in Git?,0,synthetic
+syn_0198,What is autoboxing in Java?,1,synthetic
+so_8865458,How do I vertically center text with CSS?,0,stackoverflow
+ds_se_51065,What is the positional encoding in the transformer model?,1,ds_se
+so_3508605,How can I transition height: 0; to height: auto; using CSS?,0,stackoverflow
+syn_0077,How do I connect to a database using JDBC?,0,synthetic
+cs_se_1914,Find median of unsorted array in $O(n)$ time,0,cs_se
+wc_en_cc683fbf,"clean up this code for production: import { onMounted, ref, reactive, watchEffect } from 'vue'; import {comma } from '@/assets/countries.js'; const props = defineProps({ uuid: Number, country: Number || String || Object, title: String, countryName: String, }); const identifier = ref(String(props.title).toLocaleLowerCase().replace(' ', '-')); const random = ref(Math.floor(Math.random() * 100) + 35); onMounted(()=>{ gsap.fromTo(`#${identifier.value}-${props.uuid}`, { marginTop: 10, duration: 0.3, opacity: 0, x:-150, scale:0.1, stagger: 0.8 },{ marginTop: 0, duration: 0.4, opacity: 1, x:0, scale: 1.1, },'-=0.39'); }) /* Smoothed number count anims */ const tweened = reactive({ number: 0 }) function callAnim(n){ gsap.to(tweened, { duration: 0.35, number: Number(n) || 0}) } watchEffect(()=>{ return callAnim(props.country) }) function updateNum(){ return comma(tweened.number.toFixed(0)) }",0,wildchat_en
+syn_en_701,What is XSS and how does it differ from CSRF?,1,synthetic
+so_code_1024847,"How can I add new keys to a dictionary?
+
+```
+.add()
+```",0,stackoverflow
+so_7273338,How to vertically align an image inside a div,0,stackoverflow
+so_44206782,Do I commit the package-lock.json file created by npm 5?,0,stackoverflow
+so_427102,"What is a ""slug"" in Django? When I read Django code I often see in models what is called a ""slug"". I am not quite sure what this is, but I do know it has something to do with URLs. How and when is this slug-thing supposed to be used? I have read its definition below in this glossary : Slug A short label for something, containing only letters, numbers, underscores or hyphens.",1,stackoverflow
+mbpp_548,Write a function to find the length of the longest increasing subsequence of the given sequence.,0,mbpp
+syn_0005,How to merge two dictionaries in Python 3?,0,synthetic
+so_10757431,Postgres: upgrade a user to be a superuser?,0,stackoverflow
+so_19913659,How do I create a new column where the values are selected based on an existing column?,0,stackoverflow
+ds_se_22,K-Means clustering for mixed numeric and categorical data,0,ds_se
+ds_se_16797,"What does the notation mAP@[.5:.95] mean? For detection, a common way to determine if one object proposal was right is Intersection over Union (IoU, IU). This takes the set $A$ of proposed object pixels and the set of true object pixels $B$ and calculates: $$IoU(A, B) = \frac{A \cap B}{A \cup B}$$ Commonly, IoU > 0.5 means that it was a hit, otherwise it was a fail.",1,ds_se
+so_276927,Can I concatenate multiple MySQL rows into one field?,0,stackoverflow

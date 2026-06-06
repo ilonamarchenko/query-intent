@@ -1,0 +1,64 @@
+# Data - large files tracked via Git LFS or excluded
+data/raw/*.parquet
+data/raw/*.csv
+data/raw/*.jsonl
+*.parquet
+
+# Generated splits (reproduced by running split_dataset.py)
+data/splits/*.csv
+
+# Stray root-level copy
+/labeled_queries.csv
+
+# Model checkpoints and weights
+results/checkpoints/
+results/*/best/
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+
+# Training logs
+results/sweep_size.log
+results/sweep_hp.log
+*.log
+
+# Thesis writing — drafts and build helpers (local only)
+writing/
+
+# Reference documents (methodychka, sample thesis) — local only
+data/document/
+
+# Word/Office temporary lock files
+~$*
+*.tmp
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Environment
+.env
+*.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Wandb / MLflow logs
+wandb/
+mlruns/
+
+# AI tooling / local config
+.claude/

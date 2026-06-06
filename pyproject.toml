@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "query-intent"
+version = "0.1.0"
+description = "Ukrainian CS query intent classifier for adaptive learning systems"
+requires-python = ">=3.10"
+dependencies = [
+    "torch>=2.0",
+    "transformers>=4.40",
+    "sentencepiece",
+    "pandas",
+]
+
+[project.optional-dependencies]
+dev = ["scikit-learn", "pyyaml", "tqdm"]
+
+[tool.setuptools.packages.find]
+include = ["query_intent*"]

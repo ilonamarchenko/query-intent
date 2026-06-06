@@ -1,0 +1,33 @@
+models:
+  - bert-base-multilingual-cased
+  - xlm-roberta-base
+  - microsoft/mdeberta-v3-base
+  - xlm-roberta-large
+
+# Ukrainian-only (run separately via train.py --dataset uk):
+# youscan/ukr-roberta-base  (formerly ukr-detect/ukr-roberta-base)
+
+data:
+  train_split: 0.7
+  val_split: 0.15
+  test_split: 0.15
+  max_length: 256    
+  seed: 42
+
+training:
+  batch_size: 16
+  learning_rate: 2.0e-5
+  num_epochs: 5
+  warmup_ratio: 0.1
+  weight_decay: 0.01
+  early_stopping_patience: 3
+  class_weights: true   
+
+experiments:
+  max_lengths: [128, 256, 512]
+  learning_rates: [1.0e-5, 2.0e-5, 5.0e-5]
+  training_sizes: [100, 200, 300, null]  
+
+labels:
+  solution_oriented: 0   # wants a ready answer / direct solution
+  learning_oriented: 1   # wants hints / explanations / guidance
